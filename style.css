@@ -58,3 +58,9 @@ body {
   height: 10vw;
   font-size: 25px;
 }
+
+#for-segi {
+  background-color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

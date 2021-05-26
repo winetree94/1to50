@@ -15,10 +15,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url('./dfasdf.png');
 }
 
 #root {
   width: 100%;
+  background-color: white;
 }
 
 .board-container {
@@ -44,6 +46,7 @@ body {
 #timer {
   font-size: 25px;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 #ui {

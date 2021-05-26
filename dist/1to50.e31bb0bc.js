@@ -213,6 +213,7 @@ var NumberContainer = /*#__PURE__*/function () {
     this.board = board;
     this.$number = document.createElement('div');
     this.$number.classList.add('number-container');
+    this.$number.addEventListener('touchstart', this.onClick.bind(this));
     this.$number.addEventListener('click', this.onClick.bind(this));
     this.board.$board.append(this.$number);
   }
@@ -276,7 +277,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39401" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42763" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

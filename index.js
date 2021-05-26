@@ -75,6 +75,7 @@ class NumberContainer {
     this.board = board;
     this.$number = document.createElement('div');
     this.$number.classList.add('number-container');
+    this.$number.addEventListener('touchstart', this.onClick.bind(this));
     this.$number.addEventListener('click', this.onClick.bind(this));
     this.board.$board.append(this.$number);
   }

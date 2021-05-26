@@ -24,11 +24,11 @@ body {
 .board-container {
   display: flex;
   flex-flow: wrap;
-  max-width: 600px;
 }
 
 .number-container {
-  width: 20%;
+  width: 20vw;
+  height: 20vw;
   border: 1px solid gray;
   box-sizing: border-box;
   font-size: 50px;
